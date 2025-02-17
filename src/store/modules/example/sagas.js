@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 import * as actions from './actions';
 import * as types from '../types';
 
+// eslint-disable-next-line no-unused-vars
 const requisicao = () => new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve();
